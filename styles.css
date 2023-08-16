@@ -27,7 +27,7 @@ position: absolute;
 width: 145px;
 height: 31px;
 left: 215px;
-top: 24px;
+top: 27px;
 
 font-family: 'Raleway';
 font-style: normal;
@@ -35,15 +35,23 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 /* identical to box height */
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+}
 
-.header-logo2{/* WebStudio */
+.header-logo1:hover{
+    font-size: 30px;
+    color: lightblue;
+}
 
-    position: absolute;
+
+.header-logo2{color: blue;
+    /* WebStudio */
+
+   
     width: 145px;
     height: 31px;
     left: 215px;
-    top: 2154px;
+    top: 2265px;
     
     font-family: 'Raleway';
     font-style: normal;
@@ -53,9 +61,13 @@ letter-spacing: 0.03em;}
     /* identical to box height */
     letter-spacing: 0.03em;
     
-    color: #2196F3;
-    
     }
+
+    .header-logo2:hover{
+        font-size: 30px;
+        color: lightblue;
+    }
+    
 
     .stydia{/* Студія */
 
@@ -63,71 +75,83 @@ letter-spacing: 0.03em;}
         width: 45px;
         height: 16px;
         left: 453px;
-        top: 32px;
+        top: 27px;
       
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 17px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        
-        color: #ff0000;
 
         color: #00eeff;
 
         }
+
+        .stydia:hover{
+            font-size: 20px;
+            color: white;
+        }
+        
         .portofolio{/* Портфоліо */
 
             position: absolute;
             width: 72px;
             height: 16px;
             left: 548px;
-            top: 32px;
+            top: 27px;
            
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 500;
-            font-size: 14px;
+            font-size: 17px;
             line-height: 16px;
             letter-spacing: 0.02em;
             
-            color: #ff0000;
             color: #00eeff;
             }
+
+            .portofolio:hover{
+                font-size: 20px;
+                color: white;
+            }
+
             .contacts{/* Контакти */
 
                 position: absolute;
                 width: 64px;
                 height: 16px;
                 left: 670px;
-                top: 32px;
+                top: 27px;
 
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 14px;
+                font-size: 17px;
                 line-height: 16px;
                 letter-spacing: 0.02em;
-                
-
-                color: #ff0000;
 
                 color: #00eeff;
 
             }
+
+            .contacts:hover{
+                font-size: 20px;
+                color: white;
+            }
+
             .e-mail1{/* E-mail */
 
                 position: absolute;
                 width: 135px;
                 height: 16px;
                 left: 1078px;
-                top: 32px;
+                top: 27px;
                 
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 14px;
+                font-size: 17px;
                 line-height: 16px;
                 letter-spacing: 0.02em;
                 
@@ -148,58 +172,70 @@ letter-spacing: 0.03em;}
                 /* info@devstudio.com */
                 
                 position: absolute;
-                width: 135px;
-                height: 16px;
-                left: 1078px;
+                width: 136px;
+                height: 21px;
+                left: 950px;
                 top: 32px;
                 
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 14px;
+                font-size: 17px;
                 line-height: 16px;
                 letter-spacing: 0.02em;
                 
                 color: #0400ff;
                 
                 }
+
+                .e-mail1:hover{
+                    font-size: 20px;
+                    color: lightblue;
+                }
+    
                 .e-mail2{/* info@devstudio.com */
 
-                    position: absolute;
+                    
                     width: 136px;
                     height: 21px;
-                    left: 215px;
-                    top: 2235px;
+                    left: 950px;
+                    top: 2265px;
                     
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 14px;
+                    font-size: 17px;
                     line-height: 24px;
                     /* or 171% */
                     letter-spacing: 0.03em;
                     
-                    color: rgba(0, 26, 255, 0.6);
+                    color: #0400ff;
                     
                     }
 
+                    .e-mail2:hover{
+                        font-size: 20px;
+                        color: lightblue;
+                    }
+        
+
                 .place{/* м. Київ, пр-т Лесі Українки, 26 */
 
-                    position: absolute;
+                    
                     width: 231px;
                     height: 21px;
-                    left: 215px;
-                    top: 2205px;
+                    left: 548px;
+                    top: 2265px;
                     
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 14px;
+                    font-size: 16px;
                     line-height: 24px;
                     /* or 171% */
                     letter-spacing: 0.03em;
                     
-                    color: #ff0000;
+                    color: #0400ff;
                     
                     }
                     
@@ -218,7 +254,7 @@ letter-spacing: 0.03em;}
                         position: absolute;
                         width: 122px;
                         height: 16px;
-                        left: 1263px;
+                        left: 1140px;
                         top: 32px;
                         
                         font-family: 'Roboto';
@@ -232,12 +268,18 @@ letter-spacing: 0.03em;}
                         
                         }
 
+                        .nomber1:hover{
+                            font-size: 15px;
+                            color: lightblue;
+                        }
+            
+
                     .nomber2{/* +38 096 111 11 11 */
 
-                        position: absolute;
+                        
                         width: 231px;
                         height: 21px;
-                        left: 215px;
+                        left: 1140px;
                         top: 2265px;
                         
                         font-family: 'Roboto';
@@ -251,6 +293,12 @@ letter-spacing: 0.03em;}
                         color: #4c00ff;
                         
                         }
+
+                        .nomber2:hover{
+                            font-size: 15px;
+                            color: lightblue;
+                        }
+            
 
                         .head{/* Підвал */
 
@@ -362,4 +410,18 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 
 }
+
+.nr{
+    display: flex;
+}
+
+.foot{
+    display: flex;
+}
+
+.lo{
+    display: flex;
+}
+
+
 
