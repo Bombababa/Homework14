@@ -1,0 +1,509 @@
+
+header {
+    background-color: #000000;
+    color: crimson;
+    padding: 20px;
+    }
+    
+    h1 {
+    margin: 0;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li a {
+        color: #ffffff;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    footer {
+        background-color: #000000;
+        color: crimson;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        
+        :root{
+            --mane-text:#757575
+        
+            --mane-text:#FFFFFF
+        
+            --mane-text:#212121
+        
+            --mane-text:#757575
+        
+            --mane-text:#2196F3
+        
+            --mane-text:#2F303A
+        
+            --mane-text:#FFFFFF99
+        
+            --mane-text:#ECECEC
+        
+            --mane-text:#F5F4FA
+        }
+
+        .header-logo1{color: blue;
+            /* WebStudio */
+            
+            position: absolute;
+            width: 145px;
+            height: 31px;
+            left: 215px;
+            top: 27px;
+            
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            /* identical to box height */
+            letter-spacing: 0.03em;
+            }
+            
+            .header-logo1:hover{
+                font-size: 30px;
+                color: lightblue;
+            }
+
+            .header-logo2{color: blue;
+                /* WebStudio */
+            
+               
+                width: 145px;
+                height: 31px;
+                left: 215px;
+                top: 2265px;
+                
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 31px;
+                /* identical to box height */
+                letter-spacing: 0.03em;
+                
+                }
+            
+                .header-logo2:hover{
+                    font-size: 30px;
+                    color: lightblue;
+                }
+
+            .stydia{/* Студія */
+
+                position: absolute;
+                width: 45px;
+                height: 16px;
+                left: 453px;
+                top: 27px;
+              
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 16px;
+                letter-spacing: 0.02em;
+        
+                color: #00eeff;
+        
+                }
+
+                .stydia:hover{
+                    font-size: 20px;
+                    color: white;
+                }
+        
+            
+                .portofolio{/* Портфоліо */
+        
+                    position: absolute;
+                    width: 72px;
+                    height: 16px;
+                    left: 548px;
+                    top: 27px;
+                   
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 16px;
+                    letter-spacing: 0.02em;
+                    
+                    font-size: 20px;
+                        color: white;
+                    }
+        
+                    .contacts{/* Контакти */
+        
+                        position: absolute;
+                        width: 64px;
+                        height: 16px;
+                        left: 670px;
+                        top: 27px;
+        
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 16px;
+                        letter-spacing: 0.02em;
+        
+                        color: #00eeff;
+        
+                    }
+        
+                    .contacts:hover{
+                        font-size: 20px;
+                        color: white;
+                    }
+  
+        .nomber1{/* Tel */
+
+            position: absolute;
+            width: 122px;
+            height: 16px;
+            left: 1263px;
+            top: 32px;
+            
+            
+            
+            /* +38 096 111 11 11 */
+            
+            position: absolute;
+            width: 122px;
+            height: 16px;
+            left: 1140px;
+            top: 32px;
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            
+            color: #4c00ff;
+            
+            }
+
+            .nomber1:hover{
+                font-size: 15px;
+                color: lightblue;
+            }
+
+            .e-mail1{/* E-mail */
+
+                position: absolute;
+                width: 135px;
+                height: 16px;
+                left: 1078px;
+                top: 27px;
+                
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 16px;
+                letter-spacing: 0.02em;
+                
+                color: #757575;
+                
+                
+                
+                /* Hover */
+                
+                position: absolute;
+                width: 135px;
+                height: 16px;
+                left: 1078px;
+                top: 32px;
+                
+                
+                
+                /* info@devstudio.com */
+                
+                position: absolute;
+                width: 136px;
+                height: 21px;
+                left: 950px;
+                top: 32px;
+                
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 16px;
+                letter-spacing: 0.02em;
+                
+                color: #0400ff;
+                
+                }
+
+                .e-mail1:hover{
+                    font-size: 20px;
+                    color: lightblue;
+                }
+
+                .e-mail2{/* info@devstudio.com */
+
+                    
+                    width: 136px;
+                    height: 21px;
+                    left: 950px;
+                    top: 2265px;
+                    
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 24px;
+                    /* or 171% */
+                    letter-spacing: 0.03em;
+                    
+                    color: #0400ff;
+                    
+                    }
+
+                    .e-mail2:hover{
+                        font-size: 20px;
+                        color: lightblue;
+                    }
+        
+
+                .place{/* м. Київ, пр-т Лесі Українки, 26 */
+
+                    
+                    width: 231px;
+                    height: 21px;
+                    left: 548px;
+                    top: 2265px;
+                    
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* or 171% */
+                    letter-spacing: 0.03em;
+                    
+                    color: #0400ff;
+                    
+                    }
+
+                    .nomber2{/* +38 096 111 11 11 */
+
+                        
+                        width: 231px;
+                        height: 21px;
+                        left: 1140px;
+                        top: 2265px;
+                        
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        /* or 171% */
+                        letter-spacing: 0.03em;
+                        
+                        color: #4c00ff;
+                        
+                        }
+
+                        .nomber2:hover{
+                            font-size: 15px;
+                            color: lightblue;
+                        }
+
+                        .ullu{
+                            display: flex;
+                            text-align: center;
+                        }
+
+                        .ul1{
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 26px;
+                            letter-spacing: 0.03em;
+                            text-align: center;
+
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 73px;
+                            height: 38px;
+                            border-radius: 4px;
+                            top: 174px;
+                            left: 512px;
+                            background: #2196F3;
+                            color: #ffffff;
+
+                            
+                        }
+
+                        .ul2{
+                            
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 26px;
+                            letter-spacing: 0.03em;
+                            text-align: center;
+
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 125px;
+                            height: 38px;
+                            top: 174px;
+                            left: 593px;
+                            border-radius: 4px;
+                              
+                            background: #F5F4FA;
+                            
+                            color: #212121;                   
+                             
+
+                           
+                        }
+                        .ul3{
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 26px;
+                            letter-spacing: 0.03em;
+                            text-align: center;
+
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 125px;
+                            height: 38px;
+                            top: 174px;
+                            left: 593px;
+                            border-radius: 4px;
+                              
+                            background: #F5F4FA;
+                            
+                            color: #212121;
+                        }
+
+                        .ul4{
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 26px;
+                            letter-spacing: 0.03em;
+                            text-align: center;
+
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 125px;
+                            height: 38px;
+                            top: 174px;
+                            left: 593px;
+                            border-radius: 4px;
+                              
+                            background: #F5F4FA;
+                            
+                            color: #212121;
+                        }
+
+                        .ul5{
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 26px;
+                            letter-spacing: 0.03em;
+                            text-align: center;
+
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 125px;
+                            height: 38px;
+                            top: 174px;
+                            left: 593px;
+                            border-radius: 4px;
+                              
+                            background: #F5F4FA;
+                            
+                            color: #212121;
+                        }
+
+                        .foot{
+                            display: flex;
+                        }
+
+                        .li1{
+                            display: flex;
+                        }
+
+                        .li2{
+                            display: flex;
+                        }
+
+                        .li3{
+                            display: flex;
+                        }
+
+                        .li4{
+                            display: flex;
+                        }
+
+                        .li5{
+                            display: flex;
+                        }
+
+                        .divv{
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                        .ull{
+                            display: flex;
+                            text-align: left;
+                            justify-content: center;
+                            
+                        }
+
+                        .lii{
+                            width: 370px;
+                            height: 404px;
+                            top: 262px;
+                            left: 215px;
+                            border: 1px;
+                            margin: 10px;
+
+                            background: linear-gradient(0deg, #ffffff, #ffffff),
+                            linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+                            border: 1px solid rgba(238, 238, 238, 1);                                                      
+                        }
+
+               
