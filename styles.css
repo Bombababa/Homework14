@@ -458,6 +458,7 @@ box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0
 
 .grey-img{
     flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 0px -147.517px / 100% 170.667% no-repeat;
 }
 
 .efect{
@@ -507,5 +508,42 @@ top: 440px;
 left: 612px;
 
 }
+
+.div{
+    width: 270px;
+    background-image: url(./astronaut\ 1.png);
+    background-position: center;
+
+border-radius: 4px;
+background-color: #F5F4FA;
+background-repeat: no-repeat;
+}
+
+.svg{
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img{
+    border-radius: 4px;
+background: #F5F4FA;
+width: 270px;
+height: 120px;
+flex-shrink: 0;
+}
+
+.h3{
+    width: 270px;
+}
+
+.p{
+    width: 270px;
+height: 72px;
+flex-shrink: 0;
+
+}
+
 
 
