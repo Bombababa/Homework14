@@ -417,6 +417,8 @@ color: rgba(255, 255, 255, 0.6);
 
 .nr{
    display: flex;
+   justify-content: center;
+   
 }
 
 .foot{
@@ -519,30 +521,70 @@ background-color: #F5F4FA;
 background-repeat: no-repeat;
 }
 
-.svg{
-flex-shrink: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.img{
-    border-radius: 4px;
-background: #F5F4FA;
-width: 270px;
-height: 120px;
-flex-shrink: 0;
+.container{
+    width: 1200px;
+ padding: 0 15px;
+ margin: 0 auto;
 }
 
 .h3{
     width: 270px;
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
 }
 
 .p{
     width: 270px;
-height: 72px;
-flex-shrink: 0;
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
 
+}
+
+.nrItem:not(:last-child){
+    margin-right: 30px;
+
+}
+
+.nrItem::before{
+     content: "";
+     display: block;
+     width: 270px;
+     height: 120px;
+     background-color: #F5F4FA;
+     background-repeat: no-repeat;
+     background-position: center;
+
+}
+
+.nrItem{
+    position: relative;
+}
+
+.antenna::before{
+background-image: url(./antenna.jpg);
+}
+
+.clock::before{
+    background-image: url(./clock.jpg);
+}
+
+.disagram::before{
+    background-image: url(./disagram.jpg);
+}
+
+.astronaut::before{
+    background-image: url(./astronaut.png);
 }
 
 
