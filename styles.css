@@ -587,5 +587,99 @@ background-image: url(./antenna.jpg);
     background-image: url(./astronaut.png);
 }
 
+.icon-instagram{
+    width: 20px;
+    height: 16.25px;
+    fill: #AFB1B8;
+}
+.icon-instagram:hover{
+    width: 20px;
+    height: 16.25px;
+    color: white;
+    background-color: blue;
+}
 
+.icon-twitter{
+    width: 20px;
+height: 16.25px;
+fill: #AFB1B8;
+}
+.icon-twitter:hover{
+    width: 20px;
+    height: 16.25px;
+    color: white;
+    background-color: blue;
+}
+
+.icon-facebook{
+    width: 20px;
+    height: 16.25px;
+    fill: #AFB1B8;
+}
+.icon-facebook:hover{
+    width: 20px;
+    height: 16.25px;
+    color: white;
+    background-color: blue;
+}
+
+.icon-linkedin{
+    width: 20px;
+    height: 16.25px;
+    fill: #AFB1B8;
+}
+.icon-linkedin:hover{
+    width: 20px;
+    height: 16.25px;
+    color: white;
+    background-color: blue;
+}
+
+.icon-instagram1{
+    width: 20px;
+    height: 16.25px;
+    fill: #AFB1B8;
+}
+.icon-instagram1:hover{
+    width: 20px;
+    height: 16.25px;
+    color: white;
+    background-color: blue;
+}
+
+.icon-twitter-with-circle{
+    width: 20px;
+height: 16.25px;
+fill: #AFB1B8;
+}
+.icon-twitter-with-circle:hover{
+    width: 20px;
+    height: 16.25px;
+    color: white;
+    background-color: blue;
+}
+
+.icon-facebook-with-circle{
+    width: 20px;
+    height: 16.25px;
+    fill: #AFB1B8;
+}
+.icon-facebook-with-circle:hover{
+    width: 20px;
+    height: 16.25px;
+    color: white;
+    background-color: blue;
+}
+
+.icon-linkedin2{
+    width: 20px;
+    height: 16.25px;
+    fill: #AFB1B8;
+}
+.icon-linkedin2:hover{
+    width: 20px;
+    height: 16.25px;
+    color: white;
+    background-color: blue;
+}
 

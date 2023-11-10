@@ -506,4 +506,54 @@ header {
                             border: 1px solid rgba(238, 238, 238, 1);                                                      
                         }
 
-               
+                        .icon-instagram1{
+                            width: 20px;
+                            height: 16.25px;
+                            fill: #AFB1B8;
+                        }
+                        .icon-instagram1:hover{
+                            width: 20px;
+                            height: 16.25px;
+                            color: white;
+                            background-color: blue;
+                        }
+                        
+                        .icon-twitter-with-circle{
+                            width: 20px;
+                        height: 16.25px;
+                        fill: #AFB1B8;
+                        }
+                        .icon-twitter-with-circle:hover{
+                            width: 20px;
+                            height: 16.25px;
+                            color: white;
+                            background-color: blue;
+                        }
+                        
+                        .icon-facebook{
+                            width: 20px;
+                            height: 16.25px;
+                            fill: #AFB1B8;
+                        }
+                        .icon-facebook:hover{
+                            width: 20px;
+                            height: 16.25px;
+                            color: white;
+                            background-color: blue;
+                        }
+                        
+                        .icon-linkedin{
+                            width: 20px;
+                            height: 16.25px;
+                            fill: #AFB1B8;
+                        }
+                        .icon-linkedin:hover{
+                            width: 20px;
+                            height: 16.25px;
+                            color: white;
+                            background-color: blue;
+                        }
+
+                        .divvv{
+                            margin-right: 100px;
+                        }
