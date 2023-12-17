@@ -3,6 +3,11 @@ header {
     background-color: #000000;
     color: crimson;
     padding: 20px;
+    height: 50px;
+    }
+
+    a{
+        text-decoration: none;
     }
     
     h1 {
@@ -25,9 +30,6 @@ header {
         background-color: #000000;
         color: crimson;
         padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         }
         
         :root{
@@ -72,16 +74,10 @@ header {
                 font-size: 30px;
                 color: lightblue;
             }
-
+            
+            
             .header-logo2{color: blue;
                 /* WebStudio */
-            
-               
-                width: 145px;
-                height: 31px;
-                left: 215px;
-                top: 2265px;
-                
                 font-family: 'Raleway';
                 font-style: normal;
                 font-weight: 700;
@@ -96,13 +92,116 @@ header {
                     font-size: 30px;
                     color: lightblue;
                 }
-
-            .stydia{/* Студія */
-
+            
+            
+            .stydia:hover::after{
+                transform: translate(0);
+            }
+            
+            
+                .stydia{/* Студія */
+            
+                    position: absolute;
+                    width: 45px;
+                    height: 16px;
+                    left: 453px;
+                    top: 27px;
+                  
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 16px;
+                    letter-spacing: 0.02em;
+                    color: #00eeff;
+                    overflow: hidden;
+                    
+            
+                    }
+            
+                    .stydli{
+                        overflow: hidden;
+                    }
+            
+                    .stydia:hover{
+                        font-size: 17px;
+                        color: white;
+                    }
+                    
+             .stydia::after{
+                content:"";
+                display: block;
+                width: 120%;
+                height: 4px;
+                border-radius: 5px;
+                background-color: white;
+                transform: translate(-100%);
+                transition: transform 1s;
+                position: absolute;
+                bottom: -3px;
+                left: 0;
+            }
+            
+            
+            .stydia:hover::after{
+                transform: translate(0);
+            }
+            
+            
+                .portofolio{/* Студія */
+            
+                    position: absolute;
+                    width: 45px;
+                    height: 16px;
+                    left: 550px;
+                    top: 27px;
+                  
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 16px;
+                    letter-spacing: 0.02em;
+                    color: #00eeff;
+                    overflow: hidden;
+                    
+            
+                    }
+            
+                    .portli{
+                        overflow: hidden;
+                    }
+            
+                    .portofolio:hover{
+                        font-size: 17px;
+                        color: white;
+                    }
+                    
+             .portofolio::after{
+                content:"";
+                display: block;
+                width: 120%;
+                height: 4px;
+                border-radius: 5px;
+                background-color: white;
+                transform: translate(-100%);
+                transition: transform 1s;
+                position: absolute;
+                bottom: -3px;
+                left: 0;
+            }
+            
+            
+            .portofolio:hover::after{
+                transform: translate(0);
+            }
+            
+            .contacts{/* Студія */
+            
                 position: absolute;
                 width: 45px;
                 height: 16px;
-                left: 453px;
+                left: 650px;
                 top: 27px;
               
                 font-family: 'Roboto';
@@ -111,217 +210,184 @@ header {
                 font-size: 17px;
                 line-height: 16px;
                 letter-spacing: 0.02em;
-        
                 color: #00eeff;
-        
+                overflow: hidden;
+                
+            
                 }
-
-                .stydia:hover{
-                    font-size: 20px;
+            
+                .conli{
+                    overflow: hidden;
+                }
+            
+                .contacts:hover{
+                    font-size: 17px;
                     color: white;
                 }
-        
-            
-                .portofolio{/* Портфоліо */
-        
-                    position: absolute;
-                    width: 72px;
-                    height: 16px;
-                    left: 548px;
-                    top: 27px;
-                   
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 17px;
-                    line-height: 16px;
-                    letter-spacing: 0.02em;
-                    
-                    font-size: 20px;
-                        color: white;
-                    }
-        
-                    .contacts{/* Контакти */
-        
-                        position: absolute;
-                        width: 64px;
-                        height: 16px;
-                        left: 670px;
-                        top: 27px;
-        
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 17px;
-                        line-height: 16px;
-                        letter-spacing: 0.02em;
-        
-                        color: #00eeff;
-        
-                    }
-        
-                    .contacts:hover{
-                        font-size: 20px;
-                        color: white;
-                    }
-  
-        .nomber1{/* Tel */
-
+                
+            .contacts::after{
+            content:"";
+            display: block;
+            width: 120%;
+            height: 4px;
+            border-radius: 5px;
+            background-color: white;
+            transform: translate(-100%);
+            transition: transform 1s;
             position: absolute;
-            width: 122px;
-            height: 16px;
-            left: 1263px;
-            top: 32px;
-            
-            
-            
-            /* +38 096 111 11 11 */
-            
-            position: absolute;
-            width: 122px;
-            height: 16px;
-            left: 1140px;
-            top: 32px;
-            
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.02em;
-            
-            color: #4c00ff;
-            
+            bottom: -3px;
+            left: 0;
             }
-
-            .nomber1:hover{
-                font-size: 15px;
-                color: lightblue;
+            
+            
+            .contacts:hover::after{
+            transform: translate(0);
             }
-
-            .e-mail1{/* E-mail */
-
-                position: absolute;
-                width: 135px;
-                height: 16px;
-                left: 1078px;
-                top: 27px;
+            
+            
+                        .e-mail1{/* E-mail */
+            
+                            position: absolute;
+                            width: 135px;
+                            height: 16px;
+                            left: 1078px;
+                            top: 27px;
+                            
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 17px;
+                            line-height: 16px;
+                            letter-spacing: 0.02em;
+                            
+                            color: #757575;
+                            
+                            
+                            
+                            /* Hover */
+                            
+                            position: absolute;
+                            width: 135px;
+                            height: 16px;
+                            left: 1078px;
+                            top: 32px;
+                            
+                            
+                            
+                            /* info@devstudio.com */
+                            
+                            position: absolute;
+                            width: 136px;
+                            height: 21px;
+                            left: 950px;
+                            top: 32px;
+                            
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 17px;
+                            line-height: 16px;
+                            letter-spacing: 0.02em;
+                            
+                            color: #0400ff;
+                            
+                            }
+            
+                            .e-mail1:hover{
+                                font-size: 17px;
+                                color: white;
+                                transform: translate(-10%);
+                                transition: transform 1s;
+                            }
+            
                 
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 17px;
-                line-height: 16px;
-                letter-spacing: 0.02em;
-                
-                color: #757575;
-                
-                
-                
-                /* Hover */
-                
-                position: absolute;
-                width: 135px;
-                height: 16px;
-                left: 1078px;
-                top: 32px;
-                
-                
-                
-                /* info@devstudio.com */
-                
-                position: absolute;
-                width: 136px;
-                height: 21px;
-                left: 950px;
-                top: 32px;
-                
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 17px;
-                line-height: 16px;
-                letter-spacing: 0.02em;
-                
-                color: #0400ff;
-                
-                }
-
-                .e-mail1:hover{
-                    font-size: 20px;
-                    color: lightblue;
-                }
-
-                .e-mail2{/* info@devstudio.com */
-
+                            .e-mail2{/* info@devstudio.com */
+                                
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 17px;
+                                line-height: 24px;
+                                /* or 171% */
+                                letter-spacing: 0.03em;
+                                
+                                color: #0400ff;
+                                
+                                }
+            
+                                .e-mail2:hover{
+                                    font-size: 17px;
+                                    color: white;
+                                    transform: translate(-10%);
+                                    transition: transform 1s;
+                                }
                     
-                    width: 136px;
-                    height: 21px;
-                    left: 950px;
-                    top: 2265px;
-                    
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 17px;
-                    line-height: 24px;
-                    /* or 171% */
-                    letter-spacing: 0.03em;
-                    
-                    color: #0400ff;
-                    
-                    }
-
-                    .e-mail2:hover{
-                        font-size: 20px;
-                        color: lightblue;
-                    }
-        
-
-                .place{/* м. Київ, пр-т Лесі Українки, 26 */
-
-                    
-                    width: 231px;
-                    height: 21px;
-                    left: 548px;
-                    top: 2265px;
-                    
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
-                    /* or 171% */
-                    letter-spacing: 0.03em;
-                    
-                    color: #0400ff;
-                    
-                    }
-
-                    .nomber2{/* +38 096 111 11 11 */
-
+            
+                            .place{/* м. Київ, пр-т Лесі Українки, 26 */                                                      
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                /* or 171% */
+                                letter-spacing: 0.03em;
+                                
+                                color: #0400ff;
+                                
+                                }
+                                
+                                .nomber1{/* Tel */
+            
+                                    position: absolute;
+                                    width: 122px;
+                                    height: 16px;
+                                    left: 1263px;
+                                    top: 32px;
+                                    
+                                    
+                                    
+                                    /* +38 096 111 11 11 */
+                                    
+                                    position: absolute;
+                                    width: 122px;
+                                    height: 16px;
+                                    left: 1140px;
+                                    top: 32px;
+                                    
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    letter-spacing: 0.02em;
+                                    
+                                    color: #4c00ff;
+                                    
+                                    }
+            
+                                    .nomber1:hover{
+                                        font-size: 15px;
+                                        color: white;
+                                    }
                         
-                        width: 231px;
-                        height: 21px;
-                        left: 1140px;
-                        top: 2265px;
-                        
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 24px;
-                        /* or 171% */
-                        letter-spacing: 0.03em;
-                        
-                        color: #4c00ff;
-                        
-                        }
-
-                        .nomber2:hover{
-                            font-size: 15px;
-                            color: lightblue;
-                        }
+            
+                                .nomber2{/* +38 096 111 11 11 */                        
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    /* or 171% */
+                                    letter-spacing: 0.03em;
+                                    
+                                    color: #4c00ff;
+                                    
+                                    }
+            
+                                    .nomber2:hover{
+                                        font-size: 14px;
+                                        color: white;
+                                    }
 
                         .ullu{
                             display: flex;
@@ -376,11 +442,26 @@ header {
                               
                             background: #F5F4FA;
                             
-                            color: #212121;                   
-                             
-
-                           
+                            color: #212121;                                                                          
                         }
+
+                        .ul2:hover{
+
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 125px;
+                            height: 38px;
+                            border-radius: 4px;
+                            top: 174px;
+                            left: 593px;
+                            background: #2196F3;
+                            color: #ffffff;
+                        }
+
                         .ul3{
                             font-family: Roboto;
                             font-size: 16px;
@@ -404,6 +485,22 @@ header {
                             background: #F5F4FA;
                             
                             color: #212121;
+                        }
+
+                        .ul3:hover{
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 125px;
+                            height: 38px;
+                            border-radius: 4px;
+                            top: 174px;
+                            left: 593px;
+                            background: #2196F3;
+                            color: #ffffff;
                         }
 
                         .ul4{
@@ -431,6 +528,22 @@ header {
                             color: #212121;
                         }
 
+                        .ul4:hover{
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 125px;
+                            height: 38px;
+                            border-radius: 4px;
+                            top: 174px;
+                            left: 593px;
+                            background: #2196F3;
+                            color: #ffffff;
+                        }
+
                         .ul5{
                             font-family: Roboto;
                             font-size: 16px;
@@ -454,6 +567,22 @@ header {
                             background: #F5F4FA;
                             
                             color: #212121;
+                        }
+
+                        .ul5:hover{
+                            box-shadow: 0px 2px 2px 0px #0000001F;
+
+                            box-shadow: 0px 1px 2px 0px #00000014;
+                            
+                            box-shadow: 0px 3px 1px 0px #0000001A;
+                            
+                            width: 125px;
+                            height: 38px;
+                            border-radius: 4px;
+                            top: 174px;
+                            left: 593px;
+                            background: #2196F3;
+                            color: #ffffff;
                         }
 
                         .foot{
@@ -507,53 +636,60 @@ header {
                         }
 
                         .icon-instagram1{
-                            width: 20px;
-                            height: 16.25px;
-                            fill: #AFB1B8;
+                            width: 44px;
+                            height: 44px;
+                            fill: white;
                         }
                         .icon-instagram1:hover{
-                            width: 20px;
-                            height: 16.25px;
-                            color: white;
+                            width: 44px;
+                            height: 44px;
                             background-color: blue;
                         }
                         
                         .icon-twitter-with-circle{
-                            width: 20px;
-                        height: 16.25px;
-                        fill: #AFB1B8;
+                            width: 44px;
+                            height: 44px;
+                            fill: white;
                         }
                         .icon-twitter-with-circle:hover{
-                            width: 20px;
-                            height: 16.25px;
-                            color: white;
+                            width: 44px;
+                            height: 44px;
                             background-color: blue;
                         }
                         
                         .icon-facebook{
-                            width: 20px;
-                            height: 16.25px;
-                            fill: #AFB1B8;
+                            width: 44px;
+                            height: 44px;
+                            fill: white;
                         }
                         .icon-facebook:hover{
-                            width: 20px;
-                            height: 16.25px;
-                            color: white;
+                            width: 44px;
+                            height: 44px;
                             background-color: blue;
                         }
                         
                         .icon-linkedin{
-                            width: 20px;
-                            height: 16.25px;
-                            fill: #AFB1B8;
+                            width: 44px;
+                            height: 44px;
+                            fill: white;
                         }
                         .icon-linkedin:hover{
-                            width: 20px;
-                            height: 16.25px;
-                            color: white;
+                            width: 44px;
+                            height: 44px;
                             background-color: blue;
                         }
 
                         .divvv{
                             margin-right: 100px;
+                        }
+                        .lasth{
+                            color: #FFF;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 0.42px;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
                         }
